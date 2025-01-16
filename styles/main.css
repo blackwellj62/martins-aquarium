@@ -1,0 +1,27 @@
+img {
+    max-width: 62%;
+    max-height: 62%;
+  }
+  
+  #fishList div {
+    border: 1px solid #020202;
+    padding: 10px;
+    background-color:azure;
+    text-align: left;
+}
+ 
+#tipList ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+#tipList li {
+    margin-bottom: 10px;
+}
+
+#locationList div {
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: #e7f7f7;
+    text-align: center;
+}
