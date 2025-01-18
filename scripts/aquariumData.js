@@ -3,7 +3,7 @@ export const database = {
         {
             name: "Nemo",
             species: "Clownfish",
-            length: 3,
+            length:3,
             location: "Great Barrier Reef",
             diet: "Omnivore",
             image: "https://lumiere-a.akamaihd.net/v1/images/07ff8e314e2798d32bfc8c39f82a9601677de34c.jpeg"
@@ -27,7 +27,7 @@ export const database = {
         {
             name: "Flounder" ,
             species: "Tropical Flounder",
-            length:5 ,
+            length:3 ,
             location:"Atlantic Ocean" ,
             diet: "Omnivore" ,
             image:   "https://img.buzzfeed.com/buzzfeed-static/static/2019-11/6/16/asset/52c548306c3c/sub-buzz-238-1573058749-1.jpg?downsize=700%3A%2A&output-quality=auto&output-format=auto"
@@ -35,7 +35,7 @@ export const database = {
         {
             name: "Mrs. Puff",
             species: "Pufferfish",
-            length: 7,
+            length: 10,
             location:"Bikini Bottom" ,
             diet: "Omnivore",
             image:   "https://upload.wikimedia.org/wikipedia/en/thumb/c/ce/Mrs._Puff.svg/800px-Mrs._Puff.svg.png"
@@ -55,8 +55,129 @@ export const database = {
             location: "Geppetto's Workshop" ,
             diet: "fish food",
             image:   "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHZA96ebMhgprDNtuwwCub-GRp6lFmChEElw&s"
-        }
-    ],
+        },
+            {
+              name: "Angel",
+              species: "Angel Fish",
+              length: 2,
+              location: "Great Barrier Reef",
+              diet: "Omnivore",
+              image: "https://aquaticsunlimited.com/wp-content/uploads/2023/07/ANGELFISH-FW-GOLD-Pterophyllum-scalare.jpg"
+            },
+            {
+              name: "Bulldog",
+              species: "Albino Catfish",
+              length: 3,
+              location: "Geppetto's Workshop",
+              diet: "Omnivore",
+              image: "https://realaquatics.co.uk/cdn/shop/files/vhuypv0tmlp.jpg?v=1736345124"
+            },
+            {
+              name: "Marlin",
+              species: "Clownfish",
+              length: 5,
+              location: "Great Barrier Reef",
+              diet: "Carnivore",
+              image: "https://www.brightwalldarkroom.com/wp-content/uploads/2024/07/finding-nemo.jpg"
+            },
+            {
+              name: "Bruce",
+              species: "Great White Shark",
+              length: 20,
+              location: "Atlantic Ocean",
+              diet: "Carnivore",
+              image: "https://ew.com/thmb/WjkuHTOjJTPUYe8dFRL01VnB15I=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/finding-nemo-5c43f87157a446eab674d440ef00895a.jpg"
+            },
+            {
+              name: "Flanders",
+              species: "Summer Flounder",
+              length: 7,
+              location: "Atlantic Ocean",
+              diet: "Carnivore",
+              image: "https://www.sportfishingmag.com/uploads/2021/09/light-tackle-flounder-02.jpg"
+            },
+            {
+              name: "Sharky",
+              species: "Hammerhead Shark",
+              length: 20,
+              location: "Atlantic Ocean",
+              diet: "Carnivore",
+              image: "https://i.natgeofe.com/n/18c79c2b-601e-4a1b-a290-49c11be58c13/hammerhead-sharks_thumb.jpg"
+            },
+            {
+              name: "Sebastian",
+              species: "Red Lobster",
+              length: 3,
+              location: "Atlantic Sea",
+              diet: "Omnivore",
+              image: "https://img.huffingtonpost.com/asset/652e671e1e00006f00bfed0d.jpg?ops=1200_630"
+            },
+            {
+              name: "Ariel",
+              species: "Guppy",
+              length: 1,
+              location: "Atlantic Ocean",
+              diet: "Omnivore",
+              image: "https://cdn.shopify.com/s/files/1/0323/1226/2794/files/beautiful-guppy-isolated-on-black-background-2021-09-03-19-05-20-utc_2048x2048.jpg?v=1634755464"
+            },
+            {
+              name: "Bubbles",
+              species: "Angelfish",
+              length: 4,
+              location: "Atlantic Sea",
+              diet: "Omnivore",
+              image: "https://cdn.shopify.com/s/files/1/0323/1226/2794/files/Koi_Angel_Fish_11_of_30_480x480.jpg?v=1689916154"
+            },
+            {
+              name: "Goldie",
+              species: "Goldfish",
+              length: 4,
+              location: "Seto Inland Sea",
+              diet: "Omnivore",
+              image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMDl4UuRrZ23Wep9pGMrxk_PTlJDTwp4SXhg&s"
+            },
+            {
+              name: "Splash",
+              species: "Blue Whale",
+              length: 35,
+              location: "Atlantic Ocean",
+              diet: "Carnivore",
+              image: "https://suchscience.net/wp-content/uploads/2024/09/v2-iocon-ugcjz.jpg"
+            },
+            {
+              name: "Squidward",
+              species: "Squid",
+              length: 9,
+              location: "Bikini Bottom",
+              diet: "Carnivore",
+              image: "https://spinnaker-watches.com/cdn/shop/articles/idiot_box_012_345x300_crop_center.jpg?v=1722243156"
+            },
+            {
+              name: "Spike",
+              species: "Pufferfish",
+              length: 4,
+              location: "Atlantic Ocean",
+              diet: "Carnivore",
+              image: "https://cdn.hswstatic.com/gif/gettyimages-2148073375.jpg"
+            },
+            {
+              name: "Gil",
+              species: "Lionfish",
+              length: 4,
+              location: "Atlantic Ocean",
+              diet: "Carnivore",
+              image: "https://www.seamester.com/wp-content/uploads/2017/03/lionfish-1-big.jpg"
+            },
+            {
+              name: "Sunny",
+              species: "Yellowtail",
+              length: 14,
+              location: "Atlantic Ocean",
+              diet: "Carnivore",
+              image: "https://www.aquariumofpacific.org/images/made_new/images-olc-Yellowtail_Schooling_900_600_q85.jpg"
+            }
+          ],
+          
    tips: [
         {
             topic: "Water Temperature",
